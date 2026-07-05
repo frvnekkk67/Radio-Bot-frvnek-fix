@@ -1,0 +1,35 @@
+# Environment
+.env
+.env.local
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+rankings.db
+/data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Lavalink
+lavalink/*.jar
+lavalink/logs/
